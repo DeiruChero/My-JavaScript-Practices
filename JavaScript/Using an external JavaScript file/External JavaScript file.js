@@ -1,0 +1,1 @@
+document.write("You're so stupid, once you've write something in your initial code so why you're using it again here *~*");

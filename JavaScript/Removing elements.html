@@ -1,0 +1,32 @@
+<html>
+<head><script>
+function changeStyle(){
+var texT= document.getElementById("para");
+var contenTh= document.createElement("h2");
+texT.appendChild(contenTh);
+var segmenTh= document.createTextNode("More about me~");
+contenTh.appendChild(segmenTh);
+var contenT= document.createElement("p");
+texT.appendChild(contenT);
+var segmenT= document.createTextNode("I'm single ^_^");
+contenT.appendChild(segmenT);
+}
+function changeStyle1(){
+var texTh= document.getElementsByTagName("h2")[1];
+var parent= texTh.parentNode;
+parent.removeChild(texTh);
+var texT= document.getElementsByTagName("p")[3];
+parent.removeChild(texT);
+}
+</script></head>
+<body>
+<div id="para">
+<h1> Intro on myself: </h1>
+<p> Hello friends!! My name is Nitansh Koshta and I'm 19 years old.</p>
+<p> I've many secrets in my life, but I like to still don't want to disclose them and keep it as it is as secret.</p>
+<h2> At my home- </h2>
+<p> I love to work on some great topics like blender, web development courses and some other stuffs too.</p>
+</div>
+<button onclick="changeStyle()">Add Sections</button>
+<button onclick="changeStyle1()"> Remove Segments</button>
+</html>

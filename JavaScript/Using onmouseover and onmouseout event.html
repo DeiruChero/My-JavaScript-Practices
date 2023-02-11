@@ -1,0 +1,18 @@
+<html>
+<head><script>
+function changeStyle(){
+var texT= document.getElementsByTagName("p");
+var contenT= texT[0].style.color= "violet";
+var contenT= texT[0].style.textDecoration= "underline blue";
+var contenT= texT[0].style.cursor= "crosshair";
+}
+function changeStyle1(){
+var texT= document.getElementsByTagName("p");
+var contenT= texT[0].style.color= "";
+var contenT= texT[0].style.textDecoration= "";
+var contenT= texT[0].style.cursor= "crosshair";
+}
+</script></head>
+<body>
+<p onmouseover="changeStyle()" onmouseout="changeStyle1()" style="display: inline-block;"> Hello there!! </p><br>
+</html>

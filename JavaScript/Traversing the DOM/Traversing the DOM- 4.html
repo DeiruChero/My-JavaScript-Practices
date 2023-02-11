@@ -1,0 +1,25 @@
+<html>
+<head><script>
+function changeStyle(){
+var paraP= document.getElementById("sib");
+var sibling= paraP.nextElementSibling;
+sibling.style.color= "pink";
+sibling.style.textDecoration= "underline brown";
+var sibling1= paraP.previousElementSibling;
+sibling1.style.color= "violet";
+sibling1.style.textDecoration= "underline purple";
+}
+</script></head>
+<body>
+<div id="para">
+<p> You're not alone.</p>
+<p> We are together.</p>
+<div id="sib">
+<p> We can do this.</p>
+</div>
+<p> Don't apologize.</p>
+<p> We're very close towards our goal.</p>
+<p> We'll win.</p>
+<button onclick="changeStyle()"> Yes</button>
+</div>
+</html>

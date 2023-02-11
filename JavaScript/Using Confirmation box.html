@@ -1,0 +1,16 @@
+<html>
+<head><script>
+function changeStyle(){
+var confirmation= confirm("These changes will only occurs once.");
+if(confirmation== true){
+var text= document.getElementsByTagName("p");
+var content= text[0].innerHTML= "Watashi wa Chero Desu!! ^_^";
+var content= text[1].innerHTML= "";
+}
+}
+</script></head>
+<body>
+<p> Watashi wa</p>
+<p> ***** desu!!</p>
+<button onclick="changeStyle()"> Want to know my name. Uh? </button>
+</html>
